@@ -2,6 +2,9 @@
 title: "Paxos Overview"
 date: 2019-02-09T19:35:55-05:00
 lastmod: 2019-02-09T19:35:55-05:00
+tags:
+  - tech
+  - distributed systems
 ---
 _This is a simplified explanation of the Paxos consensus protocol, although it attempts to be mostly correct, there is some nuance lost in the simplification._
 

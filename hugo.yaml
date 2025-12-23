@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://danielle.fyi/
 languageCode: en-gb
 title: Danielle Lancashire
 theme: PaperMod
@@ -26,11 +26,27 @@ menu:
       name: Now
       url: /now/
       weight: 3
+    - identifier: glass-store
+      name: Store
+      url: https://daniellelancashire.com
+      weight: 4
+    - identifier: photography
+      name: Photography
+      url: https://danielle.photo
+      weight: 5
 
 params:
   defaultTheme: light
   disableThemeToggle: true
   disableScrollToTop: true
+
+  socialIcons:
+    - name: "mastodon"
+      url: "https://toot.cat/@endocrimes"
+    - name: "instagram"
+      url: "https://instagram.com/danielle.lancashire"
+    - name: "bluesky"
+      url: "https://bsky.app/profile/danielle.fyi"
 
   homeInfoParams:
     title: "Hi there \U0001F44B"

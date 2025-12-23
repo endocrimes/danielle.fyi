@@ -2,6 +2,8 @@
 title: "SQLite is Edge-Scale"
 date: 2025-08-29T12:00:00Z
 lastmod: 2025-08-29T12:00:00Z
+tags:
+  - tech
 ---
 
 Published on the [Fermyon
