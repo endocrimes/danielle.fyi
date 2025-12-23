@@ -1,0 +1,52 @@
+baseURL: https://example.org/
+languageCode: en-gb
+title: Danielle Lancashire
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+
+enableGitInfo: true
+mainsections: ["posts"]
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /
+      weight: 1
+    - identifier: Thoughts
+      name: Thoughts
+      url: /micro/
+      weight: 2
+    - identifier: now
+      name: Now
+      url: /now/
+      weight: 3
+
+params:
+  defaultTheme: light
+  disableThemeToggle: true
+  disableScrollToTop: true
+
+  homeInfoParams:
+    title: "Hi there \U0001F44B"
+    content: >
+      Welcome to my home on the :globe_with_meridians:. I don't write articles very often, but when I do, they'll show up here.
+
+  showReadingTime: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+permalinks:
+  micro: "/:year/:month/:day/:slugorcontentbasename"
+
+frontmatter:
+  # Prefer lastmod from frontmatter, over git, to ensure migrated posts retain
+  # correct info.
+  lastmod: ["lastmod", ":git", "date", "publishDate"]
