@@ -1,3 +1,4 @@
 ---
 date: '{{ .Date }}'
+type: microposts
 ---

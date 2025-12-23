@@ -16,10 +16,12 @@ menu:
       name: Blog
       url: /
       weight: 1
-    - identifier: Thoughts
-      name: Thoughts
-      url: /micro/
-      weight: 2
+      # Disabled until I figure out a posting-from-my-phone process and a POSSE
+      # syndication tool.
+      # - identifier: Thoughts
+      #   name: Thoughts
+      #   url: /micro/
+      #   weight: 2
     - identifier: now
       name: Now
       url: /now/
